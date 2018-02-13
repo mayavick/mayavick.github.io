@@ -1,0 +1,17 @@
+name: "mayavick.github.io"
+output_dir: "."
+navbar:
+  title: My Website
+  left:
+  - text: Home
+    href: index.html
+  - text: About
+    href: about.html
+  - text: Other
+    href: other.html
+output:
+  html_document:
+    theme: flatly
+    highlight: zenburn
+    lib_dir: site_libs
+    self_contained: no
